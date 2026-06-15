@@ -49,7 +49,7 @@ This project runs locally on my machine. Screenshots above demonstrate full func
 ## Connect With Me
 - **Email:** dtemplet578@gmail.com
 - **GitHub:** [github.com/d-templet](https://github.com/d-templet)
-- **LinkedIn:** [Add your LinkedIn URL here]
+- **LinkedIn:** [[linkedin.com/in/dee-templet](https://www.linkedin.com/in/dee-templet-289611360/)]
 
 ---
 
