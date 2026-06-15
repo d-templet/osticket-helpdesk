@@ -1,0 +1,35 @@
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: osticket_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword123
+      MYSQL_DATABASE: osticket
+      MYSQL_USER: osticket
+      MYSQL_PASSWORD: osticket
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  osticket:
+    image: campbellsoftware/osticket:latest
+    container_name: osticket_app
+    restart: unless-stopped
+    depends_on:
+      - mysql
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_DATABASE: osticket
+      MYSQL_USER: osticket
+      MYSQL_PASSWORD: osticket
+    ports:
+      - "8080:80"
+    volumes:
+      - osticket_data:/data
+
+volumes:
+  mysql_data:
+  osticket_data:
