@@ -17,6 +17,19 @@ I built a fully functional helpdesk ticketing system on Fedora Linux to learn IT
   - Printer troubleshooting
   - Password reset
   - Software installation
+## Screenshots
+
+### Open Tickets
+![Open Tickets](screenshots/openTickets.png)
+
+### Resolved Tickets
+![Resolved Tickets](screenshots/resolvedTickets.png)
+
+### Ticket Detail
+![Ticket Detail](screenshots/detailTickets.png)
+
+### Resolution Comment
+![Resolution Comment](screenshots/commentTickets.png)
 
 ## What I Learned
 - Ticket lifecycle: Intake → Prioritize → Resolve → Document
