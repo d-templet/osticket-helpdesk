@@ -1,27 +1,30 @@
 # osTicket Helpdesk Lab
 
 ## Project Overview
-I built a fully functional helpdesk ticketing system on Fedora Linux to learn real-world IT support workflows used in enterprise environments.
+Deployed a fully functional helpdesk ticketing system using the LAMP stack on Fedora Linux.
 
-## Why This Matters
-Helpdesk ticketing systems (like osTicket, ServiceNow, Zendesk) are how IT teams track and resolve employee issues. This project demonstrates I understand the complete ticket lifecycle before ever working a real helpdesk job.
-
-## Technologies Used
-- **OS:** Fedora Linux
-- **Web Server:** Apache (HTTPD)
-- **Database:** MariaDB (MySQL)
-- **Backend:** PHP 8.4
-- **Helpdesk App:** osTicket v1.18.1
+## Tools Used
+- Fedora Linux
+- Apache (HTTPD)
+- MariaDB (MySQL)
+- PHP 8.4
+- osTicket v1.18.1
 
 ## What I Did
-- Set up LAMP stack (Linux, Apache, MySQL, PHP) from scratch on Fedora
+- Set up LAMP stack from scratch on Fedora
 - Configured osTicket with admin and customer portals
-- Created and resolved practice tickets simulating real IT scenarios:
-  - 🖨️ **Printer troubleshooting** — Reseated network cables, verified printing
-  - 🔐 **Password reset** — Reset AD password, user confirmed login
-  - 💻 **Software installation** — Installed Zoom, tested audio/video
-  - 🔌 **VPN connection issue** — Diagnosed authentication errors
-  - 📱 **Email sync problem** — Reconciled mobile device settings
+- Created and resolved practice IT tickets:
+  - Password reset (High priority)
+  - Printer troubleshooting (Medium priority)
+  - Software installation (Low priority)
+  - VPN connection issue (High priority)
+  - Email sync problem (Medium priority)
+
+## Key Findings
+- Ticket lifecycle: Intake → Prioritize → Resolve → Document
+- Customer portal vs agent panel workflows
+- Importance of clear resolution documentation
+- LAMP stack deployment and configuration
 
 ## Screenshots
 
@@ -38,19 +41,12 @@ Helpdesk ticketing systems (like osTicket, ServiceNow, Zendesk) are how IT teams
 ![Resolution Comment](screenshots/commentTickets.png)
 
 ## What I Learned
-- **Ticket lifecycle:** Intake → Prioritize → Resolve → Document (ITIL-style workflow)
-- **LAMP stack deployment:** Hands-on with Apache, MySQL, PHP configuration
-- **Helpdesk workflow:** Customer portal (submit tickets) vs agent panel (resolve tickets)
-- **Documentation:** Why every resolution needs a clear, auditable note
-
-## Live Demo
-This project runs locally on my machine. Screenshots above demonstrate full functionality.
+- Ticketing system workflow (ITIL-style)
+- LAMP stack deployment and configuration
+- Helpdesk operations (customer portal vs agent panel)
+- Documentation practices for IT support
 
 ## Connect With Me
 - **Email:** dtemplet578@gmail.com
 - **GitHub:** [github.com/d-templet](https://github.com/d-templet)
-- **LinkedIn:** [linkedin.com/in/dee-templet](https://www.linkedin.com/in/dee-templet-289611360/)
-
----
-
-*Built as part of my journey from CS student to IT professional.*
+- **LinkedIn:** [linkedin.com/in/dee-templet-289611360](https://linkedin.com/in/dee-templet-289611360)
